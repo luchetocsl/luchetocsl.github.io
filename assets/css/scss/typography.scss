@@ -1,0 +1,54 @@
+@font-face {
+  src: url("../fonts/RoslindaleCondensed-Regular.eot"); /* IE < 9 */
+  src: url("../fonts/RoslindaleCondensed-Regular.eot?#")
+      format("embedded-opentype"),
+    /* IE 9 */ url("../fonts/RoslindaleCondensed-Regular.woff2") format("woff2"),
+    url("../fonts/RoslindaleCondensed-Regular.woff") format("woff");
+  font-family: "RoslindaleCondensed";
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  src: url("../fonts/NeueMontreal-Bold.eot"); /* IE < 9 */
+  src: url("../fonts/NeueMontreal-Bold.eot?#") format("embedded-opentype"),
+    /* IE 9 */ url("../fonts/NeueMontreal-Bold.woff2") format("woff2"),
+    url("../fonts/NeueMontreal-B  old.woff") format("woff");
+  font-family: "NeueMontreal";
+  font-style: normal;
+  font-weight: Bold;
+}
+
+@font-face {
+  src: url("../fonts/NeueMontreal-Italic.eot"); /* IE < 9 */
+  src: url("../fonts/NeueMontreal-Italic.eot?#") format("embedded-opentype"),
+    /* IE 9 */ url("../fonts/NeueMontreal-Italic.woff2") format("woff2"),
+    url("../fonts/RoslindaleCondensed-Italic.woff") format("woff");
+  font-family: "NeueMontreal";
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  src: url("../fonts/NeueMontreal-Regular.eot"); /* IE < 9 */
+  src: url("../fonts/NeueMontreal-Regular.eot?#") format("embedded-opentype"),
+    /* IE 9 */ url("../fonts/NeueMontreal-Regular.woff2") format("woff2"),
+    url("../fonts/NeueMontreal-Regular.woff") format("woff");
+  font-family: "NeueMontreal";
+  font-style: normal;
+  font-weight: normal;
+}
+
+$display-font: "RoslindaleCondensed";
+$regular-font: "NeueMontreal";
+
+html {
+  font-family: $regular-font;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "RoslindaleCondensed";
+}
