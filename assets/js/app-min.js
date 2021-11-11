@@ -1,1 +1,1 @@
-barba.init({});
+barba.init({transitions:[{name:"opacity-transition",leave:t=>gsap.to(t.current.container,{opacity:0}),enter:t=>gsap.from(t.next.container,{opacity:0})}]});

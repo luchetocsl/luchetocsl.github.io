@@ -41,12 +41,20 @@
       "oO" : 1,
       "oS" : 1
     },
-    "\/about.hml" : {
+    "\/about.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/about.hml",
+      "oAP" : "\/about.html",
+      "oF" : 0
+    },
+    "\/about.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/about.html",
       "oF" : 0
     },
     "\/assets\/css\/scss\/base.scss" : {
