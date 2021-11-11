@@ -41,6 +41,47 @@ h4 {
   font-family: "RoslindaleCondensed";
 }
 
+h1 {
+  font-size: clamp(3rem, 3rem + (1vw - 0.48rem) * 7.5, 9rem);
+}
+
+a {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: "NeueMontreal";
+  color: #1a1a1a;
+}
+
+a.read-more {
+  display: inline-block;
+  padding: 2rem 0;
+  position: relative;
+  width: fit-content;
+}
+a.read-more:after {
+  position: absolute;
+  content: "";
+  width: 50%;
+  margin-left: 15px;
+  background-image: url(../icons/fi_arrow-right.svg);
+  height: 4rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+a.read-more:hover:after {
+  transform: translate(20px, 0);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -48,6 +89,7 @@ html {
 body {
   background: #fff5e8;
   font-size: 1.6em;
+  padding: 2rem;
 }
 
 header {
@@ -71,6 +113,45 @@ header .logo {
 .main-nav ul li a {
   text-decoration: none;
   color: #1a1a1a;
+}
+
+.home-main {
+  position: relative;
+  min-height: 80vh;
+  display: flex;
+  align-content: center;
+}
+.home-main h1 {
+  font-size: clamp(3rem, 3rem + (1vw - 0.48rem) * 7.5, 8.5rem);
+  z-index: 1;
+  display: flex;
+  align-self: center;
+  margin: 0;
+  width: 100%;
+  margin-top: 4rem;
+}
+.home-main .cover {
+  aspect-ratio: 2/2.5;
+  width: clamp(20rem, 20rem + (1vw - 0.48rem) * 31.625, 45.3rem);
+  position: absolute;
+  right: 0;
+  top: 4rem;
+  z-index: 0;
+  transition: all 0.9s ease-in-out;
+  background: url(../img/lucheto.jpg);
+  background-size: cover;
+}
+.home-main .cover:hover {
+  transform: scale(1.04);
+}
+.home-main .info {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.home-main .info p {
+  max-width: 48rem;
 }
 
 .main {
