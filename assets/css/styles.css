@@ -52,6 +52,7 @@ a {
   text-decoration: none;
   font-family: "NeueMontreal";
   color: #1a1a1a;
+  letter-spacing: 0.5px;
 }
 
 a.read-more {
@@ -59,6 +60,7 @@ a.read-more {
   padding: 2rem 0;
   position: relative;
   width: fit-content;
+  transition: all 0.5s ease-in-out;
 }
 a.read-more:after {
   position: absolute;
@@ -71,6 +73,9 @@ a.read-more:after {
   background-size: contain;
   top: 1rem;
   transition: all 0.5s ease-in-out;
+}
+a.read-more:hover {
+  letter-spacing: 1px;
 }
 a.read-more:hover:after {
   transform: translate(20px, 0);
