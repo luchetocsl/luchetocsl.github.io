@@ -92,6 +92,30 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/assets\/css\/scss\/normalize-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/scss\/normalize-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/assets\/css\/scss\/normalize.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/css\/scss\/normalize-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/assets\/css\/scss\/typography.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -253,6 +277,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/js\/app.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/assets\/js\/app-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/CNAME" : {
       "cB" : 0,
       "ft" : 8192,
@@ -268,22 +303,6 @@
       "oA" : 0,
       "oAP" : "\/index.html",
       "oF" : 0
-    },
-    "\/package-lock.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/package-lock-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/package.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/package-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
     }
   },
   "hooks" : [
