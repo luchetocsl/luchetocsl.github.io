@@ -428,6 +428,7 @@ a.read-more:hover:after {
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
