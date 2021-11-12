@@ -39,6 +39,23 @@
   }
 }
 
+.about-main {
+  position: relative;
+  display: flex;
+  align-content: center;
+
+  .info {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-bottom: 10rem;
+    p {
+      max-width: 48rem;
+    }
+  }
+}
+
 .portfolio {
   h2 {
     margin-bottom: 5rem;
