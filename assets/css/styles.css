@@ -443,6 +443,9 @@ a.read-more {
   position: relative;
   width: fit-content;
   transition: all 0.5s ease-in-out;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 a.read-more:after {
   position: absolute;
@@ -557,10 +560,12 @@ header .logo {
   max-width: 48rem;
 }
 
-.portfolio h2 {
+.portfolio h3 {
+  font-size: 2.6rem;
+  letter-spacing: 2px;
   margin-bottom: 5rem;
 }
-.portfolio h2::before {
+.portfolio h3::before {
   display: inline-block;
   content: "";
   border-top: 1px solid #1a1a1a;
@@ -581,6 +586,7 @@ header .logo {
   color: #1a1a1a;
   letter-spacing: 1px;
   transition: all 0.9s ease-in-out;
+  text-decoration: none;
 }
 .projects a:hover {
   color: #1a1a1a;

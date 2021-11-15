@@ -121,6 +121,9 @@ a.read-more {
   position: relative;
   width: fit-content;
   transition: all 0.5s ease-in-out;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
 
   &:after {
     position: absolute;
