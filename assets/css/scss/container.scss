@@ -39,8 +39,27 @@
   }
 }
 
+.about-main {
+  position: relative;
+  display: flex;
+  align-content: center;
+
+  .info {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-bottom: 10rem;
+    p {
+      max-width: 48rem;
+    }
+  }
+}
+
 .portfolio {
-  h2 {
+  h3 {
+    font-size: 2.6rem;
+    letter-spacing: 2px;
     margin-bottom: 5rem;
     &::before {
       display: inline-block;
@@ -65,6 +84,7 @@
     color: $primary-color;
     letter-spacing: 1px;
     transition: all 0.9s ease-in-out;
+    text-decoration: none;
     &:hover {
       color: $primary-color;
       background-image: url(../img/gradient.jpg);
