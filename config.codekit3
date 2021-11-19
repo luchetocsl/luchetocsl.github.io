@@ -25,30 +25,6 @@
       "oAP" : "\/_layout\/_header.html",
       "oF" : 0
     },
-    "\/_layout\/about.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/about.html",
-      "oF" : 2
-    },
-    "\/_layout\/index.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/index.html",
-      "oF" : 2
-    },
-    "\/_layout\/portfolio\/aboga copy.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/portfolio\/aboga copy.html",
-      "oF" : 2
-    },
     "\/_layout\/portfolio\/aboga.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -89,9 +65,25 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
+    "\/.nova\/Configuration.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/.nova\/Configuration-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/about.html" : {
       "cB" : 0,
       "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/about.html",
+      "oF" : 0
+    },
+    "\/about.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/about.html",
@@ -407,6 +399,22 @@
       "oA" : 0,
       "oAP" : "\/index.html",
       "oF" : 0
+    },
+    "\/index.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/index.html",
+      "oF" : 2
+    },
+    "\/portfolio\/aboga.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/portfolio\/aboga.html",
+      "oF" : 0
     }
   },
   "hooks" : [
@@ -417,7 +425,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 658267213.43132305,
-    "displayValue" : "lucheto",
+    "displayValue" : "luchetocsl.github.io",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-koamaru",
     "iconImageWasSetByUser" : 0

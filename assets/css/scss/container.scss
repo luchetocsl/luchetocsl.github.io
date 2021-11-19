@@ -96,3 +96,17 @@
     }
   }
 }
+
+.portfolio {
+  section.title-image {
+    text-align: center;
+    padding: 4rem 0;
+    img {
+      max-width: 600px;
+    }
+  }
+  section.intro {
+    display: flex;
+    justify-content: center;
+  }
+}

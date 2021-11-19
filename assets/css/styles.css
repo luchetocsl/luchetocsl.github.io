@@ -390,6 +390,7 @@ h2 {
 
 p {
   line-height: 1.3;
+  max-width: 48rem;
 }
 
 p.small {
@@ -598,6 +599,18 @@ header .logo {
   /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 0.1px;
   -webkit-text-stroke-color: #fff5e8;
+}
+
+.portfolio section.title-image {
+  text-align: center;
+  padding: 4rem 0;
+}
+.portfolio section.title-image img {
+  max-width: 600px;
+}
+.portfolio section.intro {
+  display: flex;
+  justify-content: center;
 }
 
 .main {
