@@ -107,6 +107,27 @@
       max-width: 600px;
     }
   }
+  section.role-team {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    margin: 4rem 0;
+    width: 100%;
+    font-size: 2rem;
+    flex-wrap: wrap;
+    div {
+      padding: 2rem;
+      flex: 1;
+      ul {
+        list-style: none;
+        padding: 0;
+        li {
+          padding: 0;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
   section.intro {
     display: flex;
     flex-direction: column;
@@ -114,25 +135,6 @@
     align-self: center;
     p {
       max-width: 48rem;
-    }
-    .role-team {
-      display: flex;
-      flex-direction: row;
-      background-color: #a8b7a7;
-      padding: 2rem;
-      margin: 4rem 0;
-      max-width: 48rem;
-      div {
-        padding: 2rem;
-        ul {
-          list-style: none;
-          padding: 0;
-          li {
-            padding: 0;
-            margin-bottom: 10px;
-          }
-        }
-      }
     }
   }
 }

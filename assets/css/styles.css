@@ -388,9 +388,14 @@ h2 {
   font-size: clamp(2rem, 2rem + (1vw - 0.48rem) * 6.25, 7rem);
 }
 
+h3 {
+  letter-spacing: 1px;
+}
+
 h4 {
   font-size: 3rem;
   margin: 0;
+  letter-spacing: 1px;
 }
 
 p {
@@ -513,6 +518,29 @@ header .logo {
   color: #1a1a1a;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 16rem 0 0 0;
+}
+.footer h3 {
+  font-size: 3rem;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.socials ul {
+  padding: 0;
+  list-style: none;
+}
+.socials ul li {
+  margin-bottom: 1rem;
+}
+
 .home-main {
   position: relative;
   display: flex;
@@ -617,6 +645,27 @@ header .logo {
 .portfolio section.title-image img {
   max-width: 600px;
 }
+.portfolio section.role-team {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  margin: 4rem 0;
+  width: 100%;
+  font-size: 2rem;
+  flex-wrap: wrap;
+}
+.portfolio section.role-team div {
+  padding: 2rem;
+  flex: 1;
+}
+.portfolio section.role-team div ul {
+  list-style: none;
+  padding: 0;
+}
+.portfolio section.role-team div ul li {
+  padding: 0;
+  margin-bottom: 10px;
+}
 .portfolio section.intro {
   display: flex;
   flex-direction: column;
@@ -625,25 +674,6 @@ header .logo {
 }
 .portfolio section.intro p {
   max-width: 48rem;
-}
-.portfolio section.intro .role-team {
-  display: flex;
-  flex-direction: row;
-  background-color: #a8b7a7;
-  padding: 2rem;
-  margin: 4rem 0;
-  max-width: 48rem;
-}
-.portfolio section.intro .role-team div {
-  padding: 2rem;
-}
-.portfolio section.intro .role-team div ul {
-  list-style: none;
-  padding: 0;
-}
-.portfolio section.intro .role-team div ul li {
-  padding: 0;
-  margin-bottom: 10px;
 }
 
 .main {

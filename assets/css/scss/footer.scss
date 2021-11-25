@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 16rem 0 0 0;
+  h3 {
+    font-size: 3rem;
+  }
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.socials {
+  ul {
+    padding: 0;
+    list-style: none;
+    li {
+      margin-bottom: 1rem;
+    }
+  }
+}
