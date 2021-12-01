@@ -14,11 +14,19 @@
 }
 
 .socials {
+  margin-right: 10px;
   ul {
     padding: 0;
     list-style: none;
     li {
       margin-bottom: 1rem;
+      display: inline-block;
+      margin: 1rem 2rem 0 0;
+    }
+    img {
+      height: 16px;
+      &:hover {
+      }
     }
   }
 }

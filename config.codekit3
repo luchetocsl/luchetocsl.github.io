@@ -65,6 +65,14 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
+    "\/.nova\/Configuration.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/.nova\/Configuration-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/about.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -328,6 +336,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/assets\/img\/github-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/img\/github-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/assets\/img\/gradient.jpg" : {
       "ft" : 16384,
       "iS" : 352285,
@@ -341,6 +359,26 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/hashnode-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/img\/hashnode-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/img\/linkedin-woodmark.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/img\/linkedin-woodmark.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/assets\/img\/lucheto.jpg" : {
       "ft" : 16384,
       "iS" : 30454,
@@ -353,6 +391,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/assets\/img\/poly-logo-black.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/img\/poly-logo-black.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/assets\/js\/app-min.js" : {
       "bF" : 0,
@@ -441,7 +489,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 658267213.43132305,
-    "displayValue" : "lucheto",
+    "displayValue" : "luchetocsl.github.io",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-koamaru",
     "iconImageWasSetByUser" : 0
