@@ -65,14 +65,6 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
-    "\/.nova\/Configuration.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/.nova\/Configuration-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
     "\/about.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -489,7 +481,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 658267213.43132305,
-    "displayValue" : "luchetocsl.github.io",
+    "displayValue" : "lucheto",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-koamaru",
     "iconImageWasSetByUser" : 0
