@@ -187,9 +187,9 @@ select {
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type=button],
+[type=reset],
+[type=submit] {
   -webkit-appearance: button;
 }
 
@@ -197,9 +197,9 @@ button,
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -208,9 +208,9 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -260,8 +260,8 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type="checkbox"],
-[type="radio"] {
+[type=checkbox],
+[type=radio] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -271,8 +271,8 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -280,7 +280,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type="search"] {
+[type=search] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -290,7 +290,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type="search"]::-webkit-search-decoration {
+[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -340,10 +340,7 @@ template {
 @font-face {
   src: url("../fonts/RoslindaleCondensed-Regular.eot");
   /* IE < 9 */
-  src: url("../fonts/RoslindaleCondensed-Regular.eot?#")
-      format("embedded-opentype"),
-    url("../fonts/RoslindaleCondensed-Regular.woff2") format("woff2"),
-    url("../fonts/RoslindaleCondensed-Regular.woff") format("woff");
+  src: url("../fonts/RoslindaleCondensed-Regular.eot?#") format("embedded-opentype"), url("../fonts/RoslindaleCondensed-Regular.woff2") format("woff2"), url("../fonts/RoslindaleCondensed-Regular.woff") format("woff");
   font-family: "RoslindaleCondensed";
   font-style: normal;
   font-weight: normal;
@@ -351,9 +348,7 @@ template {
 @font-face {
   src: url("../fonts/NeueMontreal-Bold.eot");
   /* IE < 9 */
-  src: url("../fonts/NeueMontreal-Bold.eot?#") format("embedded-opentype"),
-    url("../fonts/NeueMontreal-Bold.woff2") format("woff2"),
-    url("../fonts/NeueMontreal-B  old.woff") format("woff");
+  src: url("../fonts/NeueMontreal-Bold.eot?#") format("embedded-opentype"), url("../fonts/NeueMontreal-Bold.woff2") format("woff2"), url("../fonts/NeueMontreal-B  old.woff") format("woff");
   font-family: "NeueMontreal";
   font-style: normal;
   font-weight: Bold;
@@ -361,9 +356,7 @@ template {
 @font-face {
   src: url("../fonts/NeueMontreal-Italic.eot");
   /* IE < 9 */
-  src: url("../fonts/NeueMontreal-Italic.eot?#") format("embedded-opentype"),
-    url("../fonts/NeueMontreal-Italic.woff2") format("woff2"),
-    url("../fonts/RoslindaleCondensed-Italic.woff") format("woff");
+  src: url("../fonts/NeueMontreal-Italic.eot?#") format("embedded-opentype"), url("../fonts/NeueMontreal-Italic.woff2") format("woff2"), url("../fonts/RoslindaleCondensed-Italic.woff") format("woff");
   font-family: "NeueMontreal";
   font-style: italic;
   font-weight: normal;
@@ -371,9 +364,7 @@ template {
 @font-face {
   src: url("../fonts/NeueMontreal-Regular.eot");
   /* IE < 9 */
-  src: url("../fonts/NeueMontreal-Regular.eot?#") format("embedded-opentype"),
-    url("../fonts/NeueMontreal-Regular.woff2") format("woff2"),
-    url("../fonts/NeueMontreal-Regular.woff") format("woff");
+  src: url("../fonts/NeueMontreal-Regular.eot?#") format("embedded-opentype"), url("../fonts/NeueMontreal-Regular.woff2") format("woff2"), url("../fonts/NeueMontreal-Regular.woff") format("woff");
   font-family: "NeueMontreal";
   font-style: normal;
   font-weight: normal;
@@ -552,11 +543,18 @@ header .logo {
 .socials ul li {
   margin-bottom: 1rem;
   display: inline-block;
-  margin: 1rem 2rem 0 0;
+  margin: 0 2rem 0 0;
+}
+.socials ul li:last-of-type {
+  margin: 0;
 }
 .socials ul img {
-  height: 16px;
+  height: 20px;
 }
+.container {
+  margin-top: 5rem;
+}
+
 .home-main {
   position: relative;
   display: flex;
@@ -599,6 +597,8 @@ header .logo {
   position: relative;
   display: flex;
   align-content: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .about-main .info {
   z-index: 1;
@@ -609,6 +609,17 @@ header .logo {
 }
 .about-main .info p {
   max-width: 48rem;
+}
+
+.certs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.certs img {
+  width: 150px;
+  margin: 2rem;
 }
 
 .portfolio h3 {
@@ -636,13 +647,18 @@ header .logo {
   font-size: clamp(4rem, 4rem + (1vw - 0.048rem) * 90, 11.2rem);
   color: #1a1a1a;
   letter-spacing: 1px;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.9s ease-in-out;
   text-decoration: none;
 }
 .projects a:hover {
   color: #1a1a1a;
   background-image: url(../img/gradient.jpg);
   background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #fff5e8;
 }
 
 .portfolio {
@@ -688,7 +704,13 @@ header .logo {
 }
 
 .main {
-  margin: 0 auto;
+  margin: 5rem auto 0 0;
+  width: 100%;
+  max-width: 128rem;
+}
+
+.container {
+  margin: 0;
   width: 100%;
   max-width: 128rem;
 }

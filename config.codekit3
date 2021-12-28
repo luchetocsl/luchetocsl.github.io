@@ -65,6 +65,14 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
+    "\/.nova\/Configuration.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/.nova\/Configuration-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/about.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -346,7 +354,7 @@
       "oAP" : "\/assets\/img\/gradient.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -379,7 +387,7 @@
       "oAP" : "\/assets\/img\/lucheto.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -481,10 +489,11 @@
   },
   "projectAttributes" : {
     "creationDate" : 658267213.43132305,
-    "displayValue" : "lucheto",
+    "displayValue" : "luchetocsl.github.io",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-koamaru",
-    "iconImageWasSetByUser" : 0
+    "iconImageWasSetByUser" : 0,
+    "lastBuiltDate" : 662403669.51728904
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -778,7 +787,7 @@
     "bowerUseExactVersion" : 0,
     "browserRefreshDelay" : 0,
     "browserslistString" : ">0.2%, last 2 versions, Firefox ESR, not dead",
-    "buildEnvironment" : 0,
+    "buildEnvironment" : 1,
     "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
@@ -923,7 +932,7 @@
     "cssoForceMediaMerge" : 0,
     "cssoRestructure" : 1,
     "environmentVariableEntries" : [
-      "NODE_ENV:::production"
+      "NODE_ENV:::development"
     ],
     "esLintConfigFileHandlingType" : 0,
     "esLintECMAVersion" : 7,
