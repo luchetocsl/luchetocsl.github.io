@@ -895,6 +895,14 @@
       "oA" : 0,
       "oAP" : "\/Resume_LuisEnriqueMartínezPadilla_2022.pdf",
       "oF" : 0
+    },
+    "\/sitemap.xml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/sitemap.xml",
+      "oF" : 0
     }
   },
   "hooks" : [
