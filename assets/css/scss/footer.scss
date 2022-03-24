@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  margin: 16rem 0 0 0;
+  margin: 10rem 0 0 0;
   h3 {
     font-size: 3rem;
   }
@@ -29,6 +29,20 @@
     img {
       height: 20px;
       &:hover {
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .socials {
+    ul {
+      li {
+        margin: 1rem;
       }
     }
   }

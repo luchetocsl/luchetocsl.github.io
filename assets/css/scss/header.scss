@@ -14,14 +14,23 @@ header {
 
 .main-nav {
   ul {
+    padding: 0;
     li {
       list-style: none;
       display: inline-block;
       margin: 0 1rem;
+      font-size: 1rem;
       a {
         text-decoration: none;
         color: $primary-color;
+        font-size: 1rem;
       }
     }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  header {
+    flex-direction: column;
   }
 }

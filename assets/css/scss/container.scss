@@ -36,7 +36,7 @@
     display: flex;
     flex-direction: column;
     align-self: center;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
     p {
       max-width: 48rem;
     }
@@ -93,24 +93,34 @@
 .projects {
   text-align: center;
   list-style: none;
+  padding-left: 0;
 
   a {
     font-family: $display-font;
     color: $primary-color;
     text-transform: uppercase;
-    font-size: clamp(4rem, calc(4rem + ((1vw - 0.048rem) * 90)), 11.2rem);
+    font-size: clamp(4rem, calc(4rem + ((1vw - 0.48rem) * 10)), 11.2rem);
     color: $primary-color;
     letter-spacing: 1px;
-    transition: all 0.9s ease-in-out;
+    transition: all 0.7s ease-in-out;
     text-decoration: none;
     &:hover {
-      color: $primary-color;
-      background-image: url(../img/gradient.jpg);
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
-      -webkit-text-stroke-width: 0.1px;
-      -webkit-text-stroke-color: $background;
+      // color: $primary-color;
+      // // background-image: url(../img/gradient.jpg);
+      // // background-clip: text;
+      // -webkit-background-clip: text;
+      // -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+      // -webkit-text-stroke-width: 0.1px;
+      // -webkit-text-stroke-color: $background;
+      color: rgb(250, 131, 93);
+      color: linear-gradient(
+        52deg,
+        rgba(250, 131, 93, 1) 0%,
+        rgba(232, 134, 32, 1) 22%,
+        rgba(224, 135, 6, 1) 45%,
+        rgba(191, 135, 64, 1) 74%,
+        rgba(112, 141, 147, 1) 100%
+      );
     }
   }
 }
