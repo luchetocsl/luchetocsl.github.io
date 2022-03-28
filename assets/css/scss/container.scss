@@ -1,176 +1,206 @@
-.container {
-  margin-top: 5rem;
+// Elements
+.main {
+	margin: 4rem auto 0 auto;
+	width: 100%;
+	max-width: 128rem;
 }
 
+.container {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 128rem;
+}
+
+// Modifiers
 .home-main {
-  position: relative;
-  display: flex;
-  align-content: center;
+	position: relative;
+	display: flex;
+	align-content: center;
 
-  h1 {
-    font-size: clamp(3rem, calc(3rem + ((1vw - 0.48rem) * 7.5)), 8.5rem);
-    z-index: 1;
-    display: flex;
-    align-self: center;
-    margin: 30rem 0 0 0;
-    width: 100%;
-  }
+	h1 {
+		font-size: clamp(3rem, calc(3rem + ((1vw - 0.48rem) * 7.5)), 8.5rem);
+		z-index: 1;
+		display: flex;
+		align-self: center;
+		margin: 24rem 0 0 0;
+		width: 100%;
+	}
 
-  .cover {
-    aspect-ratio: 2 / 2.5;
-    width: clamp(20rem, calc(20rem + ((1vw - 0.48rem) * 31.625)), 45.3rem);
-    position: absolute;
-    right: 0;
-    top: 4rem;
-    z-index: 0;
-    transition: all 0.9s ease-in-out;
-    background: url(../img/lucheto.jpg);
-    background-size: cover;
-    &:hover {
-      transform: scale(1.04);
-    }
-  }
+	.cover {
+		aspect-ratio: 2 / 2.5;
+		width: clamp(20rem, calc(20rem + ((1vw - 0.48rem) * 31.625)), 45.3rem);
+		position: absolute;
+		right: 0;
+		top: 4rem;
+		z-index: 0;
+		transition: all 0.9s ease-in-out;
+		background: url(../img/lucheto.jpg);
+		background-size: cover;
+		&:hover {
+			transform: scale(1.04);
+		}
+	}
 
-  .info {
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    margin-bottom: 5rem;
-    p {
-      max-width: 48rem;
-    }
-  }
+	.info {
+		z-index: 1;
+		display: flex;
+		flex-direction: column;
+		align-self: center;
+		margin-bottom: 5rem;
+		p {
+			max-width: 48rem;
+		}
+	}
 }
 
 .about-main {
-  position: relative;
-  display: flex;
-  align-content: center;
-  flex-direction: row;
-  justify-content: space-between;
+	position: relative;
+	display: flex;
+	align-content: center;
+	flex-direction: row;
+	align-items: flex-start;
+	margin-bottom: 10rem;
+	gap: 0;
 
-  .info {
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    margin-bottom: 10rem;
-    p {
-      max-width: 48rem;
-    }
-  }
+	.info {
+		z-index: 1;
+		display: flex;
+		flex-direction: column;
+		width: 60%;
+		p {
+			max-width: 48rem;
+		}
+	}
+
+	.sidebar {
+		width: 40%;
+		padding-top: 14rem;
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 849px) {
+	.about-main {
+		flex-direction: column;
+		.info {
+			width: 100%;
+		}
+		.sidebar {
+			width: 100%;
+			padding-top: 5rem;
+		}
+	}
 }
 
 .certs {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 
-  img {
-    width: 150px;
-    margin: 2rem;
-  }
+	img {
+		width: 150px;
+		margin: 2rem;
+	}
 }
 
 .portfolio {
-  h3 {
-    font-size: 2.6rem;
-    letter-spacing: 2px;
-    margin-bottom: 5rem;
-    &::before {
-      display: inline-block;
-      content: "";
-      border-top: 1px solid $primary-color;
-      width: 2.5rem;
-      margin: 0 1rem;
-      transform: translateY(-0.8rem);
-    }
-  }
+	h3 {
+		font-size: 2.6rem;
+		letter-spacing: 2px;
+		margin-bottom: 5rem;
+		&::before {
+			display: inline-block;
+			content: "";
+			border-top: 1px solid $primary-color;
+			width: 2.5rem;
+			margin: 0 1rem;
+			transform: translateY(-0.8rem);
+		}
+	}
 }
 
 .projects {
-  text-align: center;
-  list-style: none;
-  padding-left: 0;
+	text-align: center;
+	list-style: none;
+	padding-left: 0;
 
-  a {
-    font-family: $display-font;
-    color: $primary-color;
-    text-transform: uppercase;
-    font-size: clamp(4rem, calc(4rem + ((1vw - 0.48rem) * 10)), 11.2rem);
-    color: $primary-color;
-    letter-spacing: 1px;
-    transition: all 0.7s ease-in-out;
-    text-decoration: none;
-    &:hover {
-      // color: $primary-color;
-      // // background-image: url(../img/gradient.jpg);
-      // // background-clip: text;
-      // -webkit-background-clip: text;
-      // -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
-      // -webkit-text-stroke-width: 0.1px;
-      // -webkit-text-stroke-color: $background;
-      color: rgb(250, 131, 93);
-      color: linear-gradient(
-        52deg,
-        rgba(250, 131, 93, 1) 0%,
-        rgba(232, 134, 32, 1) 22%,
-        rgba(224, 135, 6, 1) 45%,
-        rgba(191, 135, 64, 1) 74%,
-        rgba(112, 141, 147, 1) 100%
-      );
-    }
-  }
+	a {
+		font-family: $display-font;
+		color: $primary-color;
+		text-transform: uppercase;
+		font-size: clamp(4rem, calc(4rem + ((1vw - 0.48rem) * 10)), 11.2rem);
+		color: $primary-color;
+		letter-spacing: 1px;
+		transition: all 0.7s ease-in-out;
+		text-decoration: none;
+		&:hover {
+			// color: $primary-color;
+			// // background-image: url(../img/gradient.jpg);
+			// // background-clip: text;
+			// -webkit-background-clip: text;
+			// -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+			// -webkit-text-stroke-width: 0.1px;
+			// -webkit-text-stroke-color: $background;
+			color: rgb(250, 131, 93);
+			color: linear-gradient(
+				52deg,
+				rgba(250, 131, 93, 1) 0%,
+				rgba(232, 134, 32, 1) 22%,
+				rgba(224, 135, 6, 1) 45%,
+				rgba(191, 135, 64, 1) 74%,
+				rgba(112, 141, 147, 1) 100%
+			);
+		}
+	}
 }
 
 .portfolio {
-  display: flex;
-  flex-direction: column;
-  section.title-image {
-    text-align: center;
-    padding: 4rem 0;
-    img {
-      max-width: 600px;
-    }
-  }
-  section.role-team {
-    display: flex;
-    flex-direction: row;
-    padding: 2rem;
-    margin: 4rem 0;
-    width: 100%;
-    font-size: 2rem;
-    flex-wrap: wrap;
-    div {
-      padding: 2rem;
-      flex: 1;
-      ul {
-        list-style: none;
-        padding: 0;
-        li {
-          padding: 0;
-          margin-bottom: 10px;
-        }
-      }
-    }
-  }
-  section.intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    p,
-    ul,
-    h2 {
-      width: 100%;
-      max-width: 48rem;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    img {
-      width: 100%;
-      margin: 2rem 0;
-    }
-  }
+	display: flex;
+	flex-direction: column;
+	section.title-image {
+		text-align: center;
+		padding: 4rem 0;
+		img {
+			max-width: 600px;
+		}
+	}
+	section.role-team {
+		display: flex;
+		flex-direction: row;
+		padding: 2rem;
+		margin: 4rem 0;
+		width: 100%;
+		font-size: 2rem;
+		flex-wrap: wrap;
+		div {
+			padding: 2rem;
+			flex: 1;
+			ul {
+				list-style: none;
+				padding: 0;
+				li {
+					padding: 0;
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
+	section.intro {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		p,
+		ul,
+		h2 {
+			width: 100%;
+			max-width: 48rem;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		img {
+			width: 100%;
+			margin: 2rem 0;
+		}
+	}
 }
