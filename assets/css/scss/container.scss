@@ -1,14 +1,14 @@
 // Elements
 .main {
-	margin: 4rem auto 0 auto;
+	margin: 0 auto 3rem;
 	width: 100%;
-	max-width: 128rem;
+	max-width: 85.71428571rem;
 }
 
 .container {
 	margin: 0 auto;
 	width: 100%;
-	max-width: 128rem;
+	max-width: 85.71428571rem;
 }
 
 // Modifiers
@@ -18,27 +18,10 @@
 	align-content: center;
 
 	h1 {
-		font-size: clamp(3rem, calc(3rem + ((1vw - 0.48rem) * 7.5)), 8.5rem);
 		z-index: 1;
 		display: flex;
 		align-self: center;
-		margin: 24rem 0 0 0;
 		width: 100%;
-	}
-
-	.cover {
-		aspect-ratio: 2 / 2.5;
-		width: clamp(20rem, calc(20rem + ((1vw - 0.48rem) * 31.625)), 45.3rem);
-		position: absolute;
-		right: 0;
-		top: 4rem;
-		z-index: 0;
-		transition: all 0.9s ease-in-out;
-		background: url(../img/lucheto.jpg);
-		background-size: cover;
-		&:hover {
-			transform: scale(1.04);
-		}
 	}
 
 	.info {
@@ -46,9 +29,9 @@
 		display: flex;
 		flex-direction: column;
 		align-self: center;
-		margin-bottom: 5rem;
+		margin: 10rem 0 5rem 0;
 		p {
-			max-width: 48rem;
+			max-width: 40rem;
 		}
 	}
 }
@@ -67,6 +50,7 @@
 		display: flex;
 		flex-direction: column;
 		width: 60%;
+		margin: 10rem 0 0 0;
 		p {
 			max-width: 48rem;
 		}
@@ -74,8 +58,10 @@
 
 	.sidebar {
 		width: 40%;
-		padding-top: 14rem;
-		font-size: 1rem;
+		font-size: 1em;
+		margin-top: 30vh;
+		padding: 1.5rem;
+		background-color: $secondary-color;
 	}
 }
 
@@ -87,7 +73,7 @@
 		}
 		.sidebar {
 			width: 100%;
-			padding-top: 5rem;
+			margin: 2rem 0;
 		}
 	}
 }
@@ -106,13 +92,12 @@
 
 .portfolio {
 	h3 {
-		font-size: 2.6rem;
 		letter-spacing: 2px;
 		margin-bottom: 5rem;
 		&::before {
 			display: inline-block;
 			content: "";
-			border-top: 1px solid $primary-color;
+			border-top: 1px solid $text-color;
 			width: 2.5rem;
 			margin: 0 1rem;
 			transform: translateY(-0.8rem);
@@ -120,87 +105,126 @@
 	}
 }
 
-.projects {
-	text-align: center;
-	list-style: none;
-	padding-left: 0;
+.portfolio {
+	display: flex;
+	flex-direction: column;
+	margin: 10rem auto 0 auto;
+}
 
-	a {
-		font-family: $display-font;
-		color: $primary-color;
-		text-transform: uppercase;
-		font-size: clamp(4rem, calc(4rem + ((1vw - 0.48rem) * 10)), 11.2rem);
-		color: $primary-color;
-		letter-spacing: 1px;
-		transition: all 0.7s ease-in-out;
-		text-decoration: none;
-		&:hover {
-			// color: $primary-color;
-			// // background-image: url(../img/gradient.jpg);
-			// // background-clip: text;
-			// -webkit-background-clip: text;
-			// -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
-			// -webkit-text-stroke-width: 0.1px;
-			// -webkit-text-stroke-color: $background;
-			color: rgb(250, 131, 93);
-			color: linear-gradient(
-				52deg,
-				rgba(250, 131, 93, 1) 0%,
-				rgba(232, 134, 32, 1) 22%,
-				rgba(224, 135, 6, 1) 45%,
-				rgba(191, 135, 64, 1) 74%,
-				rgba(112, 141, 147, 1) 100%
-			);
+section.title-image {
+	text-align: center;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+section.role-team {
+	display: flex;
+	flex-direction: row;
+	padding: 1rem;
+	margin: 2rem auto;
+	max-width: 600px;
+	font-size: 1rem;
+	flex-wrap: wrap;
+	background-color: $secondary-color;
+	div {
+		padding: 2rem;
+		flex: 1;
+		ul {
+			list-style: none;
+			padding: 0;
+			li {
+				padding: 0;
+			}
+		}
+	}
+}
+section.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	p,
+	ul,
+	h2 {
+		width: 100%;
+		max-width: 48rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+section.summary {
+	display: flex;
+	flex-direction: row;
+	margin: 2rem 0;
+	row-gap: 2rem;
+	div {
+		flex: 1;
+		padding: 2rem;
+	}
+	h2 {
+		font-size: 2rem;
+	}
+}
+
+figure {
+	width: 100%;
+	padding: 0;
+	margin: 1.5rem 0;
+	background-color: $tertiary-color;
+	img {
+		width: 100%;
+		margin: 0;
+	}
+	figcaption {
+		padding: 1rem;
+		font-size: 1.5rem;
+	}
+}
+
+figure.vertical-image {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: $tertiary-color;
+	display: flex;
+	flex-direction: row;
+	img {
+		width: 70%;
+	}
+	figcaption {
+		width: 30%;
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (max-width: 849px) {
+	section.role-team {
+		flex-direction: column;
+	}
+
+	section.summary {
+		flex-direction: column;
+		div {
+			padding: 1rem 0;
+		}
+	}
+	figure.vertical-image {
+		flex-direction: column;
+		img {
+			width: 100%;
+		}
+		figcaption {
+			width: 100%;
 		}
 	}
 }
 
-.portfolio {
-	display: flex;
-	flex-direction: column;
-	section.title-image {
-		text-align: center;
-		padding: 4rem 0;
-		img {
-			max-width: 600px;
-		}
-	}
-	section.role-team {
-		display: flex;
-		flex-direction: row;
-		padding: 2rem;
-		margin: 4rem 0;
+.logos {
+	max-width: 45rem;
+	padding: 1rem 0 2rem 0;
+	img {
 		width: 100%;
-		font-size: 2rem;
-		flex-wrap: wrap;
-		div {
-			padding: 2rem;
-			flex: 1;
-			ul {
-				list-style: none;
-				padding: 0;
-				li {
-					padding: 0;
-					margin-bottom: 10px;
-				}
-			}
-		}
-	}
-	section.intro {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		p,
-		ul,
-		h2 {
-			width: 100%;
-			max-width: 48rem;
-			margin-left: auto;
-			margin-right: auto;
-		}
-		img {
-			width: 100%;
-			margin: 2rem 0;
-		}
 	}
 }

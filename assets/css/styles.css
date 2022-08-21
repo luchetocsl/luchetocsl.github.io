@@ -6,10 +6,8 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
@@ -44,12 +42,9 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
@@ -57,10 +52,8 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -77,12 +70,9 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -100,10 +90,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -153,14 +141,10 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
@@ -228,18 +212,12 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
 }
 
 /**
@@ -262,10 +240,8 @@ textarea {
  */
 [type=checkbox],
 [type=radio] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
 
 /**
@@ -281,10 +257,8 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -299,10 +273,8 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /* Interactive
@@ -338,32 +310,28 @@ template {
 }
 
 @font-face {
-  src: url("../fonts/RoslindaleCondensed-Regular.eot");
-  /* IE < 9 */
+  src: url("../fonts/RoslindaleCondensed-Regular.eot"); /* IE < 9 */
   src: url("../fonts/RoslindaleCondensed-Regular.eot?#") format("embedded-opentype"), url("../fonts/RoslindaleCondensed-Regular.woff2") format("woff2"), url("../fonts/RoslindaleCondensed-Regular.woff") format("woff");
   font-family: "RoslindaleCondensed";
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
-  src: url("../fonts/NeueMontreal-Bold.eot");
-  /* IE < 9 */
+  src: url("../fonts/NeueMontreal-Bold.eot"); /* IE < 9 */
   src: url("../fonts/NeueMontreal-Bold.eot?#") format("embedded-opentype"), url("../fonts/NeueMontreal-Bold.woff2") format("woff2"), url("../fonts/NeueMontreal-B  old.woff") format("woff");
   font-family: "NeueMontreal";
   font-style: normal;
   font-weight: Bold;
 }
 @font-face {
-  src: url("../fonts/NeueMontreal-Italic.eot");
-  /* IE < 9 */
+  src: url("../fonts/NeueMontreal-Italic.eot"); /* IE < 9 */
   src: url("../fonts/NeueMontreal-Italic.eot?#") format("embedded-opentype"), url("../fonts/NeueMontreal-Italic.woff2") format("woff2"), url("../fonts/RoslindaleCondensed-Italic.woff") format("woff");
   font-family: "NeueMontreal";
   font-style: italic;
   font-weight: normal;
 }
 @font-face {
-  src: url("../fonts/NeueMontreal-Regular.eot");
-  /* IE < 9 */
+  src: url("../fonts/NeueMontreal-Regular.eot"); /* IE < 9 */
   src: url("../fonts/NeueMontreal-Regular.eot?#") format("embedded-opentype"), url("../fonts/NeueMontreal-Regular.woff2") format("woff2"), url("../fonts/NeueMontreal-Regular.woff") format("woff");
   font-family: "NeueMontreal";
   font-style: normal;
@@ -378,23 +346,30 @@ h2,
 h3,
 h4 {
   font-family: "RoslindaleCondensed";
+  margin: 0;
 }
 
 h1 {
-  font-size: clamp(3rem, 3rem + (1vw - 0.48rem) * 7.5, 9rem);
+  font-size: 2.3rem;
+  font-size: clamp(2.3rem, 1.1615384615rem + 5.6923076923vw, 6rem);
+  margin: 0;
 }
 
 h2 {
-  font-size: clamp(2rem, 2rem + (1vw - 0.48rem) * 6.25, 7rem);
+  font-size: 2rem;
+  margin: 0;
+  line-height: 1.5;
 }
 
 h3 {
   letter-spacing: 1px;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  line-height: 1.5;
 }
 
 h4 {
-  font-size: 3rem;
+  font-size: 1.25rem;
   margin: 0;
   letter-spacing: 1px;
 }
@@ -408,11 +383,15 @@ h5 {
 p {
   line-height: 1.3;
   max-width: 48rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 p.small {
   font-size: 1.4rem;
+}
+
+li {
+  font-size: 1rem;
 }
 
 .available:before {
@@ -436,7 +415,8 @@ p.not-available:before {
 }
 
 .cta-text {
-  font-size: 2.5rem;
+  font-size: 2rem;
+  line-height: 1.5;
   font-weight: 700;
 }
 
@@ -486,8 +466,69 @@ a.read-more:hover:after {
 }
 
 hr {
+  border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.666);
   margin: 2rem 0 2rem 0;
+}
+
+.projects {
+  list-style: none;
+  padding-left: 0;
+}
+.projects a {
+  font-family: "RoslindaleCondensed";
+  color: #1a1a1a;
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  font-size: clamp(2.3rem, 1.1615384615rem + 5.6923076923vw, 6rem);
+  color: #1a1a1a;
+  letter-spacing: 1px;
+  transition: all 0.5s ease-in-out;
+  text-decoration: none;
+  position: relative;
+  overflow: visible;
+  z-index: 2;
+}
+.projects a:hover {
+  color: #d99343;
+}
+.projects a:hover:after {
+  display: block;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: -10rem;
+  right: -50rem;
+  z-index: -1;
+  content: " ";
+  height: 24rem;
+  width: 36rem;
+}
+@media screen and (max-width: 849px) {
+  .projects a:hover:after {
+    right: -20rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .projects a:hover:after {
+    display: none;
+  }
+}
+
+#aboga-preview:hover:after {
+  background-image: url("./../img/aboga_online/first_image.jpg");
+}
+
+#commander-preview:hover:after {
+  background-image: url("./../img/commander/mobile.jpg");
+}
+
+#floks-preview:hover:after {
+  background-image: url("./../img/floks/mockup1floks-.jpg");
+}
+
+#pardela-preview:hover:after {
+  background-image: url("./../img/pardela/main_screen.jpg");
 }
 
 *,
@@ -498,12 +539,233 @@ hr {
 
 html {
   font-size: 14px;
+  line-height: 1.5;
   scroll-behavior: smooth;
 }
 
 body {
-  background: #fff5e8;
+  background: #f7ead4;
   padding: 2rem;
+}
+
+.main {
+  margin: 0 auto 3rem;
+  width: 100%;
+  max-width: 85.71428571rem;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 85.71428571rem;
+}
+
+.home-main {
+  position: relative;
+  display: flex;
+  align-content: center;
+}
+.home-main h1 {
+  z-index: 1;
+  display: flex;
+  align-self: center;
+  width: 100%;
+}
+.home-main .info {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: 10rem 0 5rem 0;
+}
+.home-main .info p {
+  max-width: 40rem;
+}
+
+.about-main {
+  position: relative;
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 10rem;
+  gap: 0;
+}
+.about-main .info {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 10rem 0 0 0;
+}
+.about-main .info p {
+  max-width: 48rem;
+}
+.about-main .sidebar {
+  width: 40%;
+  font-size: 1em;
+  margin-top: 30vh;
+  padding: 1.5rem;
+  background-color: #d99343;
+}
+
+@media screen and (max-width: 849px) {
+  .about-main {
+    flex-direction: column;
+  }
+  .about-main .info {
+    width: 100%;
+  }
+  .about-main .sidebar {
+    width: 100%;
+    margin: 2rem 0;
+  }
+}
+.certs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.certs img {
+  width: 150px;
+  margin: 2rem;
+}
+
+.portfolio h3 {
+  letter-spacing: 2px;
+  margin-bottom: 5rem;
+}
+.portfolio h3::before {
+  display: inline-block;
+  content: "";
+  border-top: 1px solid #1a1a1a;
+  width: 2.5rem;
+  margin: 0 1rem;
+  transform: translateY(-0.8rem);
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  margin: 10rem auto 0 auto;
+}
+
+section.title-image {
+  text-align: center;
+}
+section.title-image img {
+  width: 100%;
+  height: auto;
+}
+
+section.role-team {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 600px;
+  font-size: 1rem;
+  flex-wrap: wrap;
+  background-color: #d99343;
+}
+section.role-team div {
+  padding: 2rem;
+  flex: 1;
+}
+section.role-team div ul {
+  list-style: none;
+  padding: 0;
+}
+section.role-team div ul li {
+  padding: 0;
+}
+
+section.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section.intro p,
+section.intro ul,
+section.intro h2 {
+  width: 100%;
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.summary {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 0;
+  row-gap: 2rem;
+}
+section.summary div {
+  flex: 1;
+  padding: 2rem;
+}
+section.summary h2 {
+  font-size: 2rem;
+}
+
+figure {
+  width: 100%;
+  padding: 0;
+  margin: 1.5rem 0;
+  background-color: #bab76e;
+}
+figure img {
+  width: 100%;
+  margin: 0;
+}
+figure figcaption {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+figure.vertical-image {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #bab76e;
+  display: flex;
+  flex-direction: row;
+}
+figure.vertical-image img {
+  width: 70%;
+}
+figure.vertical-image figcaption {
+  width: 30%;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 849px) {
+  section.role-team {
+    flex-direction: column;
+  }
+  section.summary {
+    flex-direction: column;
+  }
+  section.summary div {
+    padding: 1rem 0;
+  }
+  figure.vertical-image {
+    flex-direction: column;
+  }
+  figure.vertical-image img {
+    width: 100%;
+  }
+  figure.vertical-image figcaption {
+    width: 100%;
+  }
+}
+.logos {
+  max-width: 45rem;
+  padding: 1rem 0 2rem 0;
+}
+.logos img {
+  width: 100%;
 }
 
 header {
@@ -543,10 +805,14 @@ header .logo {
 .footer {
   display: flex;
   justify-content: space-between;
-  margin: 10rem 0 0 0;
+  margin: 8rem 0 0 0;
 }
 .footer h3 {
-  font-size: 3rem;
+  font-size: 2rem;
+  margin: 0;
+}
+.footer h3:before {
+  display: none;
 }
 .footer a {
   text-decoration: none;
@@ -577,188 +843,7 @@ header .logo {
   .footer {
     flex-direction: column;
   }
-
   .socials ul li {
     margin: 1rem;
   }
-}
-.main {
-  margin: 4rem auto 0 auto;
-  width: 100%;
-  max-width: 128rem;
-}
-
-.container {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 128rem;
-}
-
-.home-main {
-  position: relative;
-  display: flex;
-  align-content: center;
-}
-.home-main h1 {
-  font-size: clamp(3rem, 3rem + (1vw - 0.48rem) * 7.5, 8.5rem);
-  z-index: 1;
-  display: flex;
-  align-self: center;
-  margin: 24rem 0 0 0;
-  width: 100%;
-}
-.home-main .cover {
-  aspect-ratio: 2/2.5;
-  width: clamp(20rem, 20rem + (1vw - 0.48rem) * 31.625, 45.3rem);
-  position: absolute;
-  right: 0;
-  top: 4rem;
-  z-index: 0;
-  transition: all 0.9s ease-in-out;
-  background: url(../img/lucheto.jpg);
-  background-size: cover;
-}
-.home-main .cover:hover {
-  transform: scale(1.04);
-}
-.home-main .info {
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  margin-bottom: 5rem;
-}
-.home-main .info p {
-  max-width: 48rem;
-}
-
-.about-main {
-  position: relative;
-  display: flex;
-  align-content: center;
-  flex-direction: row;
-  align-items: flex-start;
-  margin-bottom: 10rem;
-  gap: 0;
-}
-.about-main .info {
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  width: 60%;
-}
-.about-main .info p {
-  max-width: 48rem;
-}
-.about-main .sidebar {
-  width: 40%;
-  padding-top: 14rem;
-  font-size: 1rem;
-}
-
-@media screen and (max-width: 849px) {
-  .about-main {
-    flex-direction: column;
-  }
-  .about-main .info {
-    width: 100%;
-  }
-  .about-main .sidebar {
-    width: 100%;
-    padding-top: 5rem;
-  }
-}
-.certs {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.certs img {
-  width: 150px;
-  margin: 2rem;
-}
-
-.portfolio h3 {
-  font-size: 2.6rem;
-  letter-spacing: 2px;
-  margin-bottom: 5rem;
-}
-.portfolio h3::before {
-  display: inline-block;
-  content: "";
-  border-top: 1px solid #1a1a1a;
-  width: 2.5rem;
-  margin: 0 1rem;
-  transform: translateY(-0.8rem);
-}
-
-.projects {
-  text-align: center;
-  list-style: none;
-  padding-left: 0;
-}
-.projects a {
-  font-family: "RoslindaleCondensed";
-  color: #1a1a1a;
-  text-transform: uppercase;
-  font-size: clamp(4rem, 4rem + (1vw - 0.48rem) * 10, 11.2rem);
-  color: #1a1a1a;
-  letter-spacing: 1px;
-  transition: all 0.7s ease-in-out;
-  text-decoration: none;
-}
-.projects a:hover {
-  color: #fa835d;
-  color: linear-gradient(52deg, #fa835d 0%, #e88620 22%, #e08706 45%, #bf8740 74%, #708d93 100%);
-}
-
-.portfolio {
-  display: flex;
-  flex-direction: column;
-}
-.portfolio section.title-image {
-  text-align: center;
-  padding: 4rem 0;
-}
-.portfolio section.title-image img {
-  max-width: 600px;
-}
-.portfolio section.role-team {
-  display: flex;
-  flex-direction: row;
-  padding: 2rem;
-  margin: 4rem 0;
-  width: 100%;
-  font-size: 2rem;
-  flex-wrap: wrap;
-}
-.portfolio section.role-team div {
-  padding: 2rem;
-  flex: 1;
-}
-.portfolio section.role-team div ul {
-  list-style: none;
-  padding: 0;
-}
-.portfolio section.role-team div ul li {
-  padding: 0;
-  margin-bottom: 10px;
-}
-.portfolio section.intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.portfolio section.intro p,
-.portfolio section.intro ul,
-.portfolio section.intro h2 {
-  width: 100%;
-  max-width: 48rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-.portfolio section.intro img {
-  width: 100%;
-  margin: 2rem 0;
 }

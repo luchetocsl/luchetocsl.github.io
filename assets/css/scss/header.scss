@@ -6,7 +6,7 @@ header {
   .logo {
     text-decoration: none;
     font-size: 2rem;
-    color: $primary-color;
+    color: $text-color;
     font-family: $display-font;
     text-transform: uppercase;
   }
@@ -22,7 +22,7 @@ header {
       font-size: 1rem;
       a {
         text-decoration: none;
-        color: $primary-color;
+        color: $text-color;
         font-size: 1rem;
       }
     }

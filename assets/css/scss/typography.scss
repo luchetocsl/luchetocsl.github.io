@@ -51,23 +51,30 @@ h2,
 h3,
 h4 {
 	font-family: "RoslindaleCondensed";
+	margin: 0;
 }
 
 h1 {
-	font-size: clamp(3rem, calc(3rem + ((1vw - 0.48rem) * 7.5)), 9rem);
+	font-size: 2.3rem;
+	font-size: clamp(2.3rem, 1.1615384615384612rem + 5.692307692307693vw, 6rem);
+	margin: 0;
 }
 
 h2 {
-	font-size: clamp(2rem, calc(2rem + ((1vw - 0.48rem) * 6.25)), 7rem);
+	font-size: 2rem;
+	margin: 0;
+	line-height: 1.5;
 }
 
 h3 {
 	letter-spacing: 1px;
-	font-size: 1.6rem;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	line-height: 1.5;
 }
 
 h4 {
-	font-size: 3rem;
+	font-size: 1.25rem;
 	margin: 0;
 	letter-spacing: 1px;
 }
@@ -81,11 +88,15 @@ h5 {
 p {
 	line-height: 1.3;
 	max-width: 48rem;
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 
 p.small {
 	font-size: 1.4rem;
+}
+
+li {
+	font-size: 1rem;
 }
 
 .available {
@@ -113,7 +124,8 @@ p.not-available {
 }
 
 .cta-text {
-	font-size: 2.5rem;
+	font-size: 2rem;
+	line-height: 1.5;
 	font-weight: 700;
 }
 
@@ -124,13 +136,13 @@ p.not-available {
 	font-weight: 700;
 	text-decoration: none;
 	font-family: $regular-font;
-	color: $primary-color;
+	color: $text-color;
 	letter-spacing: 0.5px;
 }
 
 a {
 	font-family: $regular-font;
-	color: $primary-color;
+	color: $text-color;
 	letter-spacing: 0.5px;
 }
 
@@ -165,6 +177,72 @@ a.read-more {
 }
 
 hr {
+	border: 0;
 	border-top: 1px solid rgba(0, 0, 0, 0.666);
 	margin: 2rem 0 2rem 0;
+}
+
+.projects {
+	list-style: none;
+	padding-left: 0;
+
+	a {
+		font-family: $display-font;
+		color: $text-color;
+		text-transform: uppercase;
+		font-size: 2.3rem;
+		font-size: clamp(2.3rem, 1.1615384615rem + 5.6923076923vw, 6rem);
+		color: $text-color;
+		letter-spacing: 1px;
+		transition: all 0.5s ease-in-out;
+		text-decoration: none;
+		position: relative;
+		overflow: visible;
+		z-index: 2;
+		&:hover {
+			color: $secondary-color;
+			&:after {
+				display: block;
+
+				background-size: cover;
+				background-position: center;
+				position: absolute;
+				top: -10rem;
+
+				right: -50rem;
+				z-index: -1;
+				content: " ";
+				height: 24rem;
+				width: 36rem;
+			}
+		}
+		@media screen and (max-width: 849px) {
+			&:hover {
+				&:after {
+					right: -20rem;
+				}
+			}
+		}
+		@media screen and (max-width: 500px) {
+			&:hover {
+				&:after {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+#aboga-preview:hover:after {
+	background-image: url("./../img/aboga_online/first_image.jpg");
+}
+
+#commander-preview:hover:after {
+	background-image: url("./../img/commander/mobile.jpg");
+}
+#floks-preview:hover:after {
+	background-image: url("./../img/floks/mockup1floks-.jpg");
+}
+#pardela-preview:hover:after {
+	background-image: url("./../img/pardela/main_screen.jpg");
 }
