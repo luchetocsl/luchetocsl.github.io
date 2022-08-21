@@ -823,11 +823,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/img\/logos\/Logos.png" : {
+    "\/assets\/img\/logos\/logos.png" : {
       "ft" : 32768,
       "iS" : 59982,
       "oA" : 0,
-      "oAP" : "\/assets\/img\/logos\/Logos.png",
+      "oAP" : "\/assets\/img\/logos\/logos.png",
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
