@@ -548,6 +548,10 @@ body {
   padding: 2rem;
 }
 
+img {
+  height: auto;
+}
+
 .main {
   margin: 0 auto 3rem;
   width: 100%;
