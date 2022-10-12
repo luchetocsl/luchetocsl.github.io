@@ -44,6 +44,7 @@
 	align-items: flex-start;
 	margin-bottom: 10rem;
 	gap: 0;
+	justify-content: space-between;
 
 	.info {
 		z-index: 1;
@@ -51,6 +52,13 @@
 		flex-direction: column;
 		width: 60%;
 		margin: 10rem 0 0 0;
+		max-width: 580px;
+
+		li::marker{
+			content: '📌  ';
+			
+		}
+
 		p {
 			max-width: 48rem;
 		}

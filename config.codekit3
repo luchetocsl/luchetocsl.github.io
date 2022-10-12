@@ -7,7 +7,7 @@
       "uuidString" : "339A9A83-0FCB-4C0E-8F65-8EA32E98596A"
     }
   ],
-  "creatorBuild" : "34408",
+  "creatorBuild" : "34434",
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -1031,7 +1031,7 @@
       "oAP" : "\/portfolio\/sonia-luis.html",
       "oF" : 0
     },
-    "\/Resume_LuisEnriqueMartínezPadilla_2022.pdf" : {
+    "\/Resume_LuisEnriqueMartínezPadilla_2022.pdf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
@@ -1056,7 +1056,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 658267213.43132305,
-    "displayValue" : "lucheto",
+    "displayValue" : "Lucheto",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-koamaru",
     "iconImageWasSetByUser" : 0,
@@ -1767,7 +1767,8 @@
         "active" : 1
       },
       "no-fallthrough" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowEmptyCase': false}"
       },
       "no-floating-decimal" : {
         "active" : 0
