@@ -7,17 +7,28 @@
 }
 
 html {
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 1.5;
 	scroll-behavior: smooth;
 }
 
 body {
 	background: $background;
-	padding: 2rem;
+	padding: 24px;
+	max-width: 1440px;
+	display: block;
+	margin: 0 auto;
 }
 
 img {
 	width: 100%;
 	height: auto;
+}
+
+main {
+	margin: 4rem 0;
+}
+
+main:has(.home-main) {
+	margin: 0;
 }
