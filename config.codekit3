@@ -14,7 +14,7 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/about.html",
+      "oAP" : "\/docs\/about.html",
       "oF" : 0
     },
     "\/assets\/css\/scss\/base.scss" : {
@@ -26,7 +26,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/css\/scss\/base.css",
+      "oAP" : "\/docs\/build\/assets\/css\/scss\/base.css",
       "oF" : 2,
       "oS" : 0,
       "pg" : 0,
@@ -41,7 +41,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/css\/scss\/colors.css",
+      "oAP" : "\/docs\/assets\/css\/scss\/colors.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -56,7 +56,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/css\/scss\/container.css",
+      "oAP" : "\/docs\/assets\/css\/scss\/container.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -71,7 +71,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/css\/scss\/footer.css",
+      "oAP" : "\/docs\/assets\/css\/scss\/footer.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -86,7 +86,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/css\/scss\/header.css",
+      "oAP" : "\/docs\/assets\/css\/scss\/header.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -100,7 +100,7 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/css\/scss\/normalize-min-min.css",
+      "oAP" : "\/docs\/assets\/css\/scss\/normalize-min-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -113,7 +113,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/css\/scss\/responsive.css",
+      "oAP" : "\/docs\/assets\/css\/scss\/responsive.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -128,7 +128,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/css\/scss\/typography.css",
+      "oAP" : "\/docs\/assets\/css\/scss\/typography.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -142,7 +142,7 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/css\/styles-min.css",
+      "oAP" : "\/docs\/assets\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -155,7 +155,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/css\/styles.css",
+      "oAP" : "\/docs\/build\/assets\/css\/styles.css",
       "oF" : 2,
       "oS" : 0,
       "pg" : 0,
@@ -166,7 +166,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/assets\/fonts\/NeueMontreal-Bold.eot",
+      "oAP" : "\/docs\/assets\/fonts\/NeueMontreal-Bold.eot",
       "oF" : 1
     },
     "\/assets\/fonts\/NeueMontreal-Bold.woff" : {
@@ -174,7 +174,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/assets\/fonts\/NeueMontreal-Bold.woff",
+      "oAP" : "\/docs\/assets\/fonts\/NeueMontreal-Bold.woff",
       "oF" : 1
     },
     "\/assets\/fonts\/NeueMontreal-Bold.woff2" : {
@@ -182,7 +182,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/assets\/fonts\/NeueMontreal-Bold.woff2",
+      "oAP" : "\/docs\/assets\/fonts\/NeueMontreal-Bold.woff2",
       "oF" : 1
     },
     "\/assets\/fonts\/NeueMontreal-Italic.eot" : {
@@ -190,7 +190,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/assets\/fonts\/NeueMontreal-Italic.eot",
+      "oAP" : "\/docs\/assets\/fonts\/NeueMontreal-Italic.eot",
       "oF" : 1
     },
     "\/assets\/fonts\/NeueMontreal-Italic.woff" : {
@@ -198,7 +198,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/assets\/fonts\/NeueMontreal-Italic.woff",
+      "oAP" : "\/docs\/assets\/fonts\/NeueMontreal-Italic.woff",
       "oF" : 1
     },
     "\/assets\/fonts\/NeueMontreal-Italic.woff2" : {
@@ -206,7 +206,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/assets\/fonts\/NeueMontreal-Italic.woff2",
+      "oAP" : "\/docs\/assets\/fonts\/NeueMontreal-Italic.woff2",
       "oF" : 1
     },
     "\/assets\/fonts\/NeueMontreal-Regular.otf" : {
@@ -214,7 +214,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/assets\/fonts\/NeueMontreal-Regular.otf",
+      "oAP" : "\/docs\/assets\/fonts\/NeueMontreal-Regular.otf",
       "oF" : 1
     },
     "\/assets\/fonts\/NeueMontreal-Regular.woff" : {
@@ -222,7 +222,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/assets\/fonts\/NeueMontreal-Regular.woff",
+      "oAP" : "\/docs\/assets\/fonts\/NeueMontreal-Regular.woff",
       "oF" : 1
     },
     "\/assets\/fonts\/NeueMontreal-Regular.woff2" : {
@@ -230,7 +230,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/assets\/fonts\/NeueMontreal-Regular.woff2",
+      "oAP" : "\/docs\/assets\/fonts\/NeueMontreal-Regular.woff2",
       "oF" : 1
     },
     "\/assets\/fonts\/RoslindaleCondensed-Regular.eot" : {
@@ -238,7 +238,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/assets\/fonts\/RoslindaleCondensed-Regular.eot",
+      "oAP" : "\/docs\/assets\/fonts\/RoslindaleCondensed-Regular.eot",
       "oF" : 1
     },
     "\/assets\/fonts\/RoslindaleCondensed-Regular.woff" : {
@@ -246,7 +246,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/assets\/fonts\/RoslindaleCondensed-Regular.woff",
+      "oAP" : "\/docs\/assets\/fonts\/RoslindaleCondensed-Regular.woff",
       "oF" : 1
     },
     "\/assets\/fonts\/RoslindaleCondensed-Regular.woff2" : {
@@ -254,14 +254,14 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/assets\/fonts\/RoslindaleCondensed-Regular.woff2",
+      "oAP" : "\/docs\/assets\/fonts\/RoslindaleCondensed-Regular.woff2",
       "oF" : 1
     },
     "\/assets\/icons\/fi_arrow-right.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/assets\/icons\/fi_arrow-right.svg",
+      "oAP" : "\/docs\/assets\/icons\/fi_arrow-right.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -270,7 +270,7 @@
     "\/assets\/img\/aboga_online\/aboga flow.flow\/controlPointConstraints.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/aboga flow.flow\/controlPointConstraints-min.json",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/aboga flow.flow\/controlPointConstraints-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -278,7 +278,7 @@
     "\/assets\/img\/aboga_online\/aboga flow.flow\/document.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/aboga flow.flow\/document-min.json",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/aboga flow.flow\/document-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -286,7 +286,7 @@
     "\/assets\/img\/aboga_online\/aboga flow.flow\/easingCurves.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/aboga flow.flow\/easingCurves-min.json",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/aboga flow.flow\/easingCurves-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -294,7 +294,7 @@
     "\/assets\/img\/aboga_online\/aboga flow.flow\/export.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/aboga flow.flow\/export-min.json",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/aboga flow.flow\/export-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -303,7 +303,7 @@
       "ft" : 32768,
       "iS" : 4005841,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/aboga flow.flow\/images\/812b8ea50b79fd720275e06c2ea029dc307a4216.png",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/aboga flow.flow\/images\/812b8ea50b79fd720275e06c2ea029dc307a4216.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -315,7 +315,7 @@
     "\/assets\/img\/aboga_online\/aboga flow.flow\/meta.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/aboga flow.flow\/meta-min.json",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/aboga flow.flow\/meta-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -324,7 +324,7 @@
       "ft" : 32768,
       "iS" : 20991664,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/aboga flow.flow\/preview\/preview.png",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/aboga flow.flow\/preview\/preview.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -337,7 +337,7 @@
       "ft" : 32768,
       "iS" : 20991664,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/aboga flow.flow\/preview\/thumbnail.png",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/aboga flow.flow\/preview\/thumbnail.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -349,7 +349,7 @@
     "\/assets\/img\/aboga_online\/aboga flow.flow\/scenes\/D7F9826D-28E1-44A2-9F57-A27CD1C90642.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/aboga flow.flow\/scenes\/D7F9826D-28E1-44A2-9F57-A27CD1C90642-min.json",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/aboga flow.flow\/scenes\/D7F9826D-28E1-44A2-9F57-A27CD1C90642-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -357,7 +357,7 @@
     "\/assets\/img\/aboga_online\/aboga flow.flow\/timelines\/D7F9826D-28E1-44A2-9F57-A27CD1C90642.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/aboga flow.flow\/timelines\/D7F9826D-28E1-44A2-9F57-A27CD1C90642-min.json",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/aboga flow.flow\/timelines\/D7F9826D-28E1-44A2-9F57-A27CD1C90642-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -365,7 +365,7 @@
     "\/assets\/img\/aboga_online\/aboga flow.flow\/user.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/aboga flow.flow\/user-min.json",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/aboga flow.flow\/user-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -375,7 +375,7 @@
       "iS" : 629933,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/aboga_notes.jpg",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/aboga_notes.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -388,7 +388,7 @@
       "iS" : 467256,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/detail.jpg",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/detail.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -401,7 +401,7 @@
       "iS" : 1129147,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/first_image.jpg",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/first_image.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -414,7 +414,7 @@
       "iS" : 1274552,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/ipad.jpg",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/ipad.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -427,7 +427,7 @@
       "iS" : 1930927,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/iphone_mockup.jpg",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/iphone_mockup.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -440,7 +440,7 @@
       "iS" : 396906,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/mockups-1.jpg",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/mockups-1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -453,7 +453,7 @@
       "iS" : 888440,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/mockups.jpg",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/mockups.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -466,7 +466,7 @@
       "iS" : 181431,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/screens.jpg",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/screens.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -478,7 +478,7 @@
       "ft" : 4194304,
       "iS" : 7477075,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/start-end-opt.gif",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/start-end-opt.gif",
       "oF" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
@@ -488,7 +488,7 @@
       "ft" : 8388608,
       "iS" : 3745346,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/start-end-opt.webp",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/start-end-opt.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -499,7 +499,7 @@
       "ft" : 4194304,
       "iS" : 16729510,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/start-end.gif",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/start-end.gif",
       "oF" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
@@ -510,7 +510,7 @@
       "iS" : 197158,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/userflow.jpg",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/userflow.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -523,7 +523,7 @@
       "iS" : 304150,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/aboga_online\/users.jpg",
+      "oAP" : "\/docs\/assets\/img\/aboga_online\/users.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -536,7 +536,7 @@
       "iS" : 147436,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/commander\/color_combinations.jpg",
+      "oAP" : "\/docs\/assets\/img\/commander\/color_combinations.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -549,7 +549,7 @@
       "iS" : 501613,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/commander\/homepage.jpg",
+      "oAP" : "\/docs\/assets\/img\/commander\/homepage.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -562,7 +562,7 @@
       "iS" : 2264832,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/commander\/mobile.jpg",
+      "oAP" : "\/docs\/assets\/img\/commander\/mobile.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -575,7 +575,7 @@
       "iS" : 993448,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/commander\/mockup.jpg",
+      "oAP" : "\/docs\/assets\/img\/commander\/mockup.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -588,7 +588,7 @@
       "iS" : 522188,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/commander\/moodboards.jpg",
+      "oAP" : "\/docs\/assets\/img\/commander\/moodboards.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -600,7 +600,7 @@
       "ft" : 4194304,
       "iS" : 15255829,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/floks\/floks-animated-screen.gif",
+      "oAP" : "\/docs\/assets\/img\/floks\/floks-animated-screen.gif",
       "oF" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
@@ -611,7 +611,7 @@
       "iS" : 70318,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/floks\/interview.jpg",
+      "oAP" : "\/docs\/assets\/img\/floks\/interview.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -624,7 +624,7 @@
       "iS" : 554336,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/floks\/mainfloks-.jpg",
+      "oAP" : "\/docs\/assets\/img\/floks\/mainfloks-.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -637,7 +637,7 @@
       "iS" : 1403700,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/floks\/mockup1floks-.jpg",
+      "oAP" : "\/docs\/assets\/img\/floks\/mockup1floks-.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -650,7 +650,7 @@
       "iS" : 1270576,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/floks\/mockup2floks-.jpg",
+      "oAP" : "\/docs\/assets\/img\/floks\/mockup2floks-.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -663,7 +663,7 @@
       "iS" : 154352,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/floks\/user_flowfloks-.jpg",
+      "oAP" : "\/docs\/assets\/img\/floks\/user_flowfloks-.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -676,7 +676,7 @@
       "iS" : 394613,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/floks\/wireframesfloks-.jpg",
+      "oAP" : "\/docs\/assets\/img\/floks\/wireframesfloks-.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -688,7 +688,7 @@
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/assets\/img\/github-logo.svg",
+      "oAP" : "\/docs\/assets\/img\/github-logo.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -699,7 +699,7 @@
       "iS" : 352285,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/gradient.jpg",
+      "oAP" : "\/docs\/assets\/img\/gradient.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -711,7 +711,7 @@
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/assets\/img\/hashnode-logo.svg",
+      "oAP" : "\/docs\/assets\/img\/hashnode-logo.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -721,7 +721,7 @@
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/assets\/img\/linkedin-woodmark.svg",
+      "oAP" : "\/docs\/assets\/img\/linkedin-woodmark.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -731,7 +731,7 @@
       "ft" : 32768,
       "iS" : 4315,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/logos\/image-1.png",
+      "oAP" : "\/docs\/assets\/img\/logos\/image-1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -744,7 +744,7 @@
       "ft" : 32768,
       "iS" : 11348,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/logos\/image-2.png",
+      "oAP" : "\/docs\/assets\/img\/logos\/image-2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -757,7 +757,7 @@
       "ft" : 32768,
       "iS" : 4790,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/logos\/image-3.png",
+      "oAP" : "\/docs\/assets\/img\/logos\/image-3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -770,7 +770,7 @@
       "ft" : 32768,
       "iS" : 9027,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/logos\/image-4.png",
+      "oAP" : "\/docs\/assets\/img\/logos\/image-4.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -783,7 +783,7 @@
       "ft" : 32768,
       "iS" : 13687,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/logos\/image-5.png",
+      "oAP" : "\/docs\/assets\/img\/logos\/image-5.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -796,7 +796,7 @@
       "ft" : 32768,
       "iS" : 4849,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/logos\/image-6.png",
+      "oAP" : "\/docs\/assets\/img\/logos\/image-6.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -809,7 +809,7 @@
       "ft" : 32768,
       "iS" : 7028,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/logos\/image-7.png",
+      "oAP" : "\/docs\/assets\/img\/logos\/image-7.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -822,7 +822,7 @@
       "ft" : 32768,
       "iS" : 59982,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/logos\/Logos.png",
+      "oAP" : "\/docs\/assets\/img\/logos\/Logos.png",
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
@@ -836,7 +836,7 @@
       "iS" : 30454,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/lucheto.jpg",
+      "oAP" : "\/docs\/assets\/img\/lucheto.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -849,7 +849,7 @@
       "iS" : 76631,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/pardela\/avatars-pardela.jpg",
+      "oAP" : "\/docs\/assets\/img\/pardela\/avatars-pardela.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -862,7 +862,7 @@
       "iS" : 630007,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/pardela\/low_fi.jpg",
+      "oAP" : "\/docs\/assets\/img\/pardela\/low_fi.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -875,7 +875,7 @@
       "iS" : 972666,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/pardela\/main_screen.jpg",
+      "oAP" : "\/docs\/assets\/img\/pardela\/main_screen.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -888,7 +888,7 @@
       "iS" : 130145,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/pardela\/mockup_1.jpg",
+      "oAP" : "\/docs\/assets\/img\/pardela\/mockup_1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -901,7 +901,7 @@
       "iS" : 142249,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/pardela\/mockup_2.jpg",
+      "oAP" : "\/docs\/assets\/img\/pardela\/mockup_2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -914,7 +914,7 @@
       "iS" : 26422,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/img\/pardela\/user_flow.jpg",
+      "oAP" : "\/docs\/assets\/img\/pardela\/user_flow.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -926,7 +926,7 @@
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/assets\/img\/poly-logo-black.svg",
+      "oAP" : "\/docs\/assets\/img\/poly-logo-black.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -938,7 +938,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/js\/app-min-min.js",
+      "oAP" : "\/docs\/assets\/js\/app-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -949,31 +949,31 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/js\/app-min.js",
+      "oAP" : "\/docs\/assets\/js\/app-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
-    },
-    "\/build" : {
-      "ft" : 65536,
-      "oA" : 1,
-      "oAP" : "\/build\/build",
-      "oF" : 0
     },
     "\/CNAME" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/CNAME",
+      "oAP" : "\/docs\/CNAME",
       "oF" : 1
+    },
+    "\/docs" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/docs\/docs",
+      "oF" : 0
     },
     "\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/index.html",
+      "oAP" : "\/docs\/index.html",
       "oF" : 0
     },
     "\/kit\/footer.kit" : {
@@ -981,7 +981,7 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/kit\/footer.html",
+      "oAP" : "\/docs\/kit\/footer.html",
       "oF" : 1
     },
     "\/kit\/header.kit" : {
@@ -989,7 +989,7 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/kit\/header.html",
+      "oAP" : "\/docs\/kit\/header.html",
       "oF" : 1
     },
     "\/kit\/portfolio-home.kit" : {
@@ -997,7 +997,7 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/kit\/portfolio-home.html",
+      "oAP" : "\/docs\/kit\/portfolio-home.html",
       "oF" : 1
     },
     "\/Luis-Martinez-UXUI_Designer.pdf" : {
@@ -1005,7 +1005,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/Luis-Martinez-UXUI_Designer.pdf",
+      "oAP" : "\/docs\/Luis-Martinez-UXUI_Designer.pdf",
       "oF" : 1
     },
     "\/LuisMartinezPortfolio.pdf" : {
@@ -1013,7 +1013,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/LuisMartinezPortfolio.pdf",
+      "oAP" : "\/docs\/LuisMartinezPortfolio.pdf",
       "oF" : 0
     },
     "\/LuisMartinezResume.pdf" : {
@@ -1021,7 +1021,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/LuisMartinezResume.pdf",
+      "oAP" : "\/docs\/LuisMartinezResume.pdf",
       "oF" : 0
     },
     "\/oven-brothers.kit" : {
@@ -1029,7 +1029,7 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/oven-brothers.html",
+      "oAP" : "\/docs\/oven-brothers.html",
       "oF" : 0
     },
     "\/portfolio\/aboga.html" : {
@@ -1037,7 +1037,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/portfolio\/aboga.html",
+      "oAP" : "\/docs\/portfolio\/aboga.html",
       "oF" : 0
     },
     "\/portfolio\/commander.html" : {
@@ -1045,7 +1045,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/portfolio\/commander.html",
+      "oAP" : "\/docs\/portfolio\/commander.html",
       "oF" : 0
     },
     "\/portfolio\/muebles-floks.html" : {
@@ -1053,7 +1053,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/portfolio\/muebles-floks.html",
+      "oAP" : "\/docs\/portfolio\/muebles-floks.html",
       "oF" : 0
     },
     "\/portfolio\/pardela.html" : {
@@ -1061,7 +1061,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/portfolio\/pardela.html",
+      "oAP" : "\/docs\/portfolio\/pardela.html",
       "oF" : 0
     },
     "\/portfolio\/sonia-luis.html" : {
@@ -1069,7 +1069,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/portfolio\/sonia-luis.html",
+      "oAP" : "\/docs\/portfolio\/sonia-luis.html",
       "oF" : 0
     },
     "\/sitemap.xml" : {
@@ -1077,7 +1077,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/sitemap.xml",
+      "oAP" : "\/docs\/sitemap.xml",
       "oF" : 1
     }
   },
@@ -1389,7 +1389,7 @@
     "browserslistString" : ">0.2%, last 2 versions, Firefox ESR, not dead",
     "buildEnvironment" : 0,
     "buildFolderActive" : 1,
-    "buildFolderName" : "build",
+    "buildFolderName" : "docs",
     "cleanBuild" : 1,
     "cssoForceMediaMerge" : 0,
     "cssoRestructure" : 1,
@@ -2975,7 +2975,7 @@
     "webpPresets" : {
 
     },
-    "websiteRelativeRoot" : "build"
+    "websiteRelativeRoot" : "docs"
   },
   "settingsFileVersion" : "3"
 }
