@@ -166,6 +166,20 @@ a.button-main {
 	}
 }
 
+a.button-secondary {
+	border: 2px solid $text-color;
+	padding: 0.2rem 1rem;
+	border-radius: 2rem;
+	background-color: $secondary-color;
+	margin-right: 1rem;
+	margin-top: 1rem;
+
+	&:hover {
+		transform: translate(0, -0.2rem);
+		box-shadow: 0 0 0 0 $text-color, 0 0.2rem 0 0 $text-color;
+	}
+}
+
 hr {
 	border: 0;
 	border-top: 1px solid rgba(0, 0, 0, 0.666);
