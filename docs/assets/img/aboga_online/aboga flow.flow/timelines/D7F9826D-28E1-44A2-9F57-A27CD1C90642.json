@@ -1,0 +1,163 @@
+{
+  "duration" : 5,
+  "id" : "D7F9826D-28E1-44A2-9F57-A27CD1C90642",
+  "initialConfiguration" : {
+    "8AB36AB3-805E-432F-8064-511F5B425C30" : {
+      "properties" : {
+        "anchorPoint.x" : 0,
+        "anchorPoint.y" : 0,
+        "backgroundColor" : {
+          "alpha" : 1,
+          "blue" : 0.16,
+          "green" : 0.153,
+          "red" : 0
+        },
+        "borderColor" : {
+          "alpha" : 0,
+          "blue" : 0,
+          "green" : 0,
+          "red" : 0
+        },
+        "borderWidth" : 1,
+        "bounds.size.height" : 1080,
+        "bounds.size.width" : 1920
+      }
+    },
+    "44626A76-4813-43C2-B355-8953E71CA095" : {
+      "properties" : {
+        "anchorPoint.x" : 0,
+        "anchorPoint.y" : 0,
+        "borderColor" : {
+          "alpha" : 0,
+          "blue" : 0,
+          "green" : 0,
+          "red" : 0
+        },
+        "bounds.size.height" : 3613.55,
+        "bounds.size.width" : 1617,
+        "combinedPath" : {
+          "normalized" : true,
+          "paths" : [
+            {
+              "closed" : true,
+              "points" : [
+                {
+                  "cornerRadius" : 0,
+                  "point" : {
+                    "x" : 0,
+                    "y" : 0
+                  }
+                },
+                {
+                  "cornerRadius" : 0,
+                  "point" : {
+                    "x" : 1,
+                    "y" : 0
+                  }
+                },
+                {
+                  "cornerRadius" : 0,
+                  "point" : {
+                    "x" : 1,
+                    "y" : 1
+                  }
+                },
+                {
+                  "cornerRadius" : 0,
+                  "point" : {
+                    "x" : 0,
+                    "y" : 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "fillImage" : {
+          "image" : {
+            "hash" : "9a865b545ecf4780c9ddeb57e466447b6a5d4e42"
+          },
+          "patternFillType" : 1,
+          "patternTileScale" : 1
+        },
+        "lineWidth" : 1.1200000000000002048,
+        "miterLimit" : 4
+      }
+    },
+    "A72F2C32-A677-4AF0-ACEB-86974C0C4911" : {
+      "properties" : {
+        "anchorPoint.x" : 0,
+        "anchorPoint.y" : 0,
+        "backgroundColor" : {
+          "alpha" : 1,
+          "blue" : 1,
+          "green" : 1,
+          "red" : 1
+        },
+        "borderColor" : {
+          "alpha" : 0,
+          "blue" : 0,
+          "green" : 0,
+          "red" : 0
+        },
+        "borderWidth" : 1.1200000000000002048,
+        "bounds.size.height" : 3613.55,
+        "bounds.size.width" : 1617
+      }
+    },
+    "FAE84298-EE22-4554-9C6C-CA6CAEBF80D0" : {
+      "properties" : {
+        "anchorPoint.x" : 0,
+        "anchorPoint.y" : 0,
+        "backgroundColor" : {
+          "alpha" : 1,
+          "blue" : 0.769,
+          "green" : 0.769,
+          "red" : 0.769
+        },
+        "borderColor" : {
+          "alpha" : 0,
+          "blue" : 0,
+          "green" : 0,
+          "red" : 0
+        },
+        "borderWidth" : 1,
+        "bounds.size.height" : 728,
+        "bounds.size.width" : 1617,
+        "position.x" : 151,
+        "position.y" : 176
+      }
+    }
+  },
+  "name" : "Timeline",
+  "scene" : {
+    "id" : "D7F9826D-28E1-44A2-9F57-A27CD1C90642",
+    "ref" : "scenes\/D7F9826D-28E1-44A2-9F57-A27CD1C90642"
+  },
+  "soundTracks" : [
+
+  ],
+  "tracks" : {
+    "A72F2C32-A677-4AF0-ACEB-86974C0C4911" : {
+      "position.y" : {
+        "initalValue" : 0,
+        "keyvalues" : [
+          {
+            "easingCurve" : {
+              "name" : "Ease In Ease Out"
+            },
+            "time" : 0.32,
+            "value" : 0
+          },
+          {
+            "easingCurve" : {
+              "name" : "Ease In Ease Out"
+            },
+            "time" : 4.8,
+            "value" : -2706
+          }
+        ]
+      }
+    }
+  }
+}
