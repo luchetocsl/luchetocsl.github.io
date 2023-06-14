@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34434",
   "files" : {
+    "\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/.gitignore",
+      "oF" : 0
+    },
     "\/about.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -134,18 +142,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/assets\/css\/styles.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/css\/styles-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/assets\/css\/styles.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -155,7 +151,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/docs\/build\/assets\/css\/styles.css",
+      "oAP" : "\/docs\/assets\/css\/styles.css",
       "oF" : 2,
       "oS" : 0,
       "pg" : 0,
@@ -1000,14 +996,6 @@
       "oAP" : "\/docs\/kit\/portfolio-home.html",
       "oF" : 1
     },
-    "\/Luis-Martinez-UXUI_Designer.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/docs\/Luis-Martinez-UXUI_Designer.pdf",
-      "oF" : 1
-    },
     "\/LuisMartinezPortfolio.pdf" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1022,54 +1010,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/LuisMartinezResume.pdf",
-      "oF" : 0
-    },
-    "\/oven-brothers.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/docs\/oven-brothers.html",
-      "oF" : 0
-    },
-    "\/portfolio\/aboga.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/docs\/portfolio\/aboga.html",
-      "oF" : 0
-    },
-    "\/portfolio\/commander.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/docs\/portfolio\/commander.html",
-      "oF" : 0
-    },
-    "\/portfolio\/muebles-floks.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/docs\/portfolio\/muebles-floks.html",
-      "oF" : 0
-    },
-    "\/portfolio\/pardela.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/docs\/portfolio\/pardela.html",
-      "oF" : 0
-    },
-    "\/portfolio\/sonia-luis.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/docs\/portfolio\/sonia-luis.html",
       "oF" : 0
     },
     "\/sitemap.xml" : {

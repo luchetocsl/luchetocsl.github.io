@@ -33,6 +33,8 @@
 		.cta {
 			display: flex;
 			flex-direction: row;
+			align-items: baseline;
+			gap: 1rem;
 		}
 	}
 
@@ -112,6 +114,10 @@
 	justify-content: flex-start;
 	align-items: flex-start;
 	gap: 2rem;
+}
+
+.random-projects {
+	margin-top: 10rem;
 }
 
 // Base
