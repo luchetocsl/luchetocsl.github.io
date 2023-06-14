@@ -229,6 +229,22 @@
       "oAP" : "\/docs\/assets\/fonts\/NeueMontreal-Regular.woff2",
       "oF" : 1
     },
+    "\/assets\/fonts\/OhnoBlazeface-14Point.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/fonts\/OhnoBlazeface-14Point.woff",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/OhnoBlazeface-14Point.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/assets\/fonts\/OhnoBlazeface-14Point.woff2",
+      "oF" : 0
+    },
     "\/assets\/fonts\/RoslindaleCondensed-Regular.eot" : {
       "cB" : 0,
       "ft" : 8192,

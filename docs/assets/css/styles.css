@@ -318,6 +318,12 @@ template {
   font-weight: normal;
 }
 @font-face {
+  src: url("../fonts/OhnoBlazeface-14Point.woff2") format("woff2"), url("../fonts/OhnoBlazeface-14Point.woff") format("woff");
+  font-family: "OhnoBlazeface";
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
   src: url("../fonts/NeueMontreal-Bold.eot"); /* IE < 9 */
   src: url("../fonts/NeueMontreal-Bold.eot?#") format("embedded-opentype"), url("../fonts/NeueMontreal-Bold.woff2") format("woff2"), url("../fonts/NeueMontreal-B  old.woff") format("woff");
   font-family: "NeueMontreal";
@@ -358,7 +364,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "RoslindaleCondensed";
+  font-family: "OhnoBlazeface";
   margin: 0;
 }
 
