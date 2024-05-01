@@ -1,4 +1,2 @@
-node_modules/
 
-config.codekit3
-*.codekit3
+assets/.DS_Store
