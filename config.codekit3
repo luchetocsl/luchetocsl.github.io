@@ -345,19 +345,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/img\/aboga_online\/aboga flow.flow\/preview\/thumbnail.png" : {
-      "ft" : 32768,
-      "iS" : 20991664,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/img\/aboga_online\/aboga flow.flow\/preview\/thumbnail.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/assets\/img\/aboga_online\/aboga flow.flow\/scenes\/D7F9826D-28E1-44A2-9F57-A27CD1C90642.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -494,17 +481,6 @@
       "oF" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/assets\/img\/aboga_online\/start-end-opt.webp" : {
-      "ft" : 8388608,
-      "iS" : 3745346,
-      "oA" : 0,
-      "oAP" : "\/docs\/assets\/img\/aboga_online\/start-end-opt.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/assets\/img\/aboga_online\/start-end.gif" : {
@@ -1049,7 +1025,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-koamaru",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 736285205.49644101
+    "lastBuiltDate" : 769223583.67556095
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
